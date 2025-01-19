@@ -28,11 +28,11 @@ Follow these steps to clone and run this portfolio website on your local machine
 ### 1. Clone the Repository  
 ```bash  
 git clone https://github.com/your-username/portfolio-website.git  
-
+```
 ### 2. Navigate to the Project Directory  
 ```bash  
 cd portfolio-website  
-
+```
 ### 3. Open the Website in Your Browser  
 - Locate the `index.html` file in the project directory.  
 - Right-click on the file and select **Open With** > **Your Preferred Browser** (e.g., Chrome, Firefox, Edge).  
