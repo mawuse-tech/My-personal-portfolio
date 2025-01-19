@@ -7,6 +7,9 @@
     <title>My portfolio website</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/3699021ab0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -34,7 +37,10 @@
                         <li class="hover:text-amber-400 cursor-pointer">Skills</li>
                     </ul>
                 </div>
-                <div><i class="fa-solid fa-message text-lg hover:text-amber-300 cursor-pointer text-white"></i></div>
+                <div class="flex items-center justify-center w-12 h-12 bg-amber-400 text-black rounded-full hover:bg-white hover:text-amber-400 shadow-md cursor-pointer transition-all duration-300">
+                    <i class="fa-solid fa-message text-xl"></i>
+                </div>
+                
             </div>
 
             <!-- Dropdown Menu (for small screens) -->
@@ -47,25 +53,25 @@
         </nav>
 
         <div
-            class="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gray-800 px-6 md:px-12 lg:px-20">
+            class="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gray-800 px-6 md:px-12 lg:px-20 ">
             <!-- Text Section -->
-            <div class="text-center lg:text-left lg:w-1/2">
+            <div class="text-center lg:text-left lg:w-1/2 leading-10 ">
                 <p class="text-white text-lg font-medium">Hi, I am Mawuse 👋</p>
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-2">
-                    Front End <span class="text-amber-400">Developer</span>
+                <h1 class="heading">
+                    Web <span class="highlight"></span>
                 </h1>
-                <p class="text-white text-lg mt-4">
+                <p class="text-white text-lg mt-10">
                     I am a front end Developer based in Ghana. I'll help you build a beautiful website your users will
                     love.
                 </p>
                 <div
                     class="mt-6 flex flex-col md:flex-row items-center lg:items-start justify-center lg:justify-start gap-4">
                     <button
-                        class="bg-amber-400 text-white px-6 py-2 rounded-full font-medium hover:bg-amber-300 transition">
+                        class="mt-6 bg-gray-800 text-amber-400 font-medium py-2 px-6 rounded-md shadow-lg ">
                         Get in touch
                     </button>
                     <button
-                        class="border border-white text-amber-400 px-6 py-2 rounded-full font-medium hover:border-amber-300 hover:text-amber-300 transition">
+                        class="mt-6 bg-gray-800  text-white font-medium py-2 px-6 rounded-md shadow-lg">
                         Browse projects
                     </button>
                 </div>
@@ -78,7 +84,6 @@
                 </div>
             </div>
         </div>
-
     </header>
 
     <!-- the main section -->
@@ -237,7 +242,8 @@
 
         <!-- services page -->
         <section>
-            <div class="fixed hidden bottom-0 left-0 right-0 bg-gray-900 shadow-lg p-6 border-t h-full overflow-auto md:h-[80%]" id="more-details">
+            <div class="fixed hidden bottom-0 left-0 right-0 bg-gray-900 shadow-lg p-6 border-t h-full overflow-auto md:h-[80%]"
+                id="more-details">
                 <button class="absolute top-4 right-4 text-gray-200 hover:text-gray-500" id="close-btn">X</button>
 
                 <div class="bg-gray-900 text-white py-12 px-6 ">
@@ -601,8 +607,15 @@
             </div>
         </div>
     </footer>
-
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".highlight", {
+            strings: ["Developer", "Designer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
     <script src="index.js"></script>
 </body>
 

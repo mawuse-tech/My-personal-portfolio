@@ -1,0 +1,26 @@
+/* General styles for the heading */
+.heading {
+  font-size: 2.25rem; /* Equivalent to Tailwind's text-4xl */
+  font-weight: 700;   /* Equivalent to Tailwind's font-bold */
+  color: #ffffff;     /* Equivalent to Tailwind's text-white */
+  margin-top: 0.5rem; /* Equivalent to Tailwind's mt-2 */
+}
+
+/* Responsive styles for medium screens (md:text-5xl) */
+@media (min-width: 768px) {
+  .heading {
+    font-size: 3rem; /* Equivalent to Tailwind's text-5xl */
+  }
+}
+
+/* Responsive styles for large screens (lg:text-6xl) */
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 3.75rem; /* Equivalent to Tailwind's text-6xl */
+  }
+}
+
+/* Highlight styling for the "Developer" text */
+.highlight {
+  color: #fbbf24; /* Equivalent to Tailwind's text-amber-400 */
+}
