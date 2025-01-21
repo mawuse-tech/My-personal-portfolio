@@ -1,28 +1,29 @@
-### Mawuse's Portfolio
+# 🌟 Portfolio Website  
 Welcome to my personal portfolio website! This project showcases my skills, interests, and the projects I've worked on as a frontend developer.
 
 ### About the Project
 This portfolio is designed to reflect my personality and technical skills. It includes detailed sections about me, my interests, and my expertise, along with an intuitive and responsive design to ensure a seamless browsing experience on all devices.
 
-### Features
-### About Section
- Learn about my journey, background, and hobbies.
-### Skill Section 
-Highlights the technical tools and technologies I work with.
-### Interest Section
- A deeper dive into what drives my passion for development and collaboration.
-### Interactive section
- Dynamic content with smooth transitions and hover effects for better engagement.
-### Dynamic text Animation
- Animated text showcasing key roles using Typed.js.
-### Responsive Layout
- Optimized for desktop, tablet, and mobile views.
+---
 
-### Technologies Used
-HTML: For the structure of the website.
-Tailwind CSS: For styling and responsive design.
-JavaScript: For dynamic and interactive features.
-Typed.js and css: For creating dynamic text animations.
+## ✨ Features  
+
+- 🌐 **About Section**: Learn about my journey, background, and hobbies. 
+- 💼 **Skill Section**: Highlights the technical tools and technologies I work with.
+- 🛠️ **Interest Section**: A deeper dive into what drives my passion for development and collaboration..  
+- 📬 **Interactive Section**: Dynamic content with smooth transitions and hover effects for better engagement.
+- 📱 **Dynamic Animation**: Animated text showcasing key roles using Typed.js. 
+- 📱 **Responsive Layout**: Optimized for desktop, tablet, and mobile views.
+
+---
+## 🖥️ Technologies Used  
+
+- 🏗️ **HTML**: For structuring the content.  
+- ✨ **JavaScript**: For adding interactivity to the website.  
+- 🚀  **Typed.js and Css**: For creating dynamic text animations.
+- ✨  **Tailwind Css**: For styling and responsive design.
+
+---
 
 ### Getting Started
 Prerequisites;
@@ -33,7 +34,7 @@ A text editor (e.g., Visual Studio Code) for making edits if needed.
 ### Installation
 ### 1. Clone the Repository  
 ```bash  
-git clone https://github.com/your-username/portfolio-website.git  
+git clone https://github.com/mawuse-tech/My-personal-portfolio.git  
 ```
 ### 2. Navigate to the Project Directory  
 ```bash  
@@ -69,9 +70,9 @@ Here's a preview of the website!
 - **Contact** 
 Want to work together or have feedback? Feel free to reach out!
 
-Email: mawuse@example.com
-GitHub: MawuseGitHub
-LinkedIn: MawuseLinkedIn
+Email: akpekemawuse1@gmail.com
+GitHub: mawuse-tech
+LinkedIn: https://www.linkedin.com/in/mawuse-akpeke-aa28a8245/
 
 
   
