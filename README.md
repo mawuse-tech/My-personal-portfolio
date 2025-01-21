@@ -67,7 +67,7 @@ Here's a preview of the website!
 - **Contact Page** 
 ![Contact Page Screenshot](assets/images/r6.png) 
 
-- **Contact** 
+- **Contact** :
 Want to work together or have feedback? Feel free to reach out!
 
 Email: akpekemawuse1@gmail.com
