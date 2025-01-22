@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- the header section -->
+    <!-- the header section-->
     <header>
         <!-- the NavBar section -->
         <nav class="bg-gray-800 p-4 fixed top-0 w-full z-10">
@@ -32,9 +32,10 @@
                 <div class="hidden md:flex items-center space-x-4 text-white">
                     <ul class="flex space-x-4">
                         <li><a href="#home" class="hover:text-amber-400 cursor-pointer">Home</a></li>
-                        <li><a href="#projects" class="hover:text-amber-400 cursor-pointer">Projects</a></li>
                         <li><a href="#about" class="hover:text-amber-400 cursor-pointer">About</a></li>
                         <li><a href="#services" class="hover:text-amber-400 cursor-pointer">Services</a></li>
+                        <li><a href="#projects" class="hover:text-amber-400 cursor-pointer">Projects</a></li>
+                        <li><a href="#resume" class="hover:text-amber-400 cursor-pointer">Resume</a></li>
                     </ul>
                 </div>
                 <a href="#contact"
@@ -46,9 +47,10 @@
             <!-- Dropdown Menu (for small screens) -->
             <ul id="mobile-menu" class="hidden flex flex-col space-y-2 mt-4 text-white md:hidden">
                 <li><a href="#home" class="hover:text-amber-400 cursor-pointer">Home</a></li>
-                <li><a href="#projects" class="hover:text-amber-400 cursor-pointer">Projects</a></li>
                 <li><a href="#about" class="hover:text-amber-400 cursor-pointer">About</a></li>
                 <li><a href="#services" class="hover:text-amber-400 cursor-pointer">Services</a></li>
+                <li><a href="#projects" class="hover:text-amber-400 cursor-pointer">Projects</a></li>
+                <li><a href="#resume" class="hover:text-amber-400 cursor-pointer">Resume</a></li>
             </ul>
         </nav>
 
@@ -92,6 +94,8 @@
         <!-- about me page -->
         <section id="about" class="bg-gray-300 py-16 px-6">
 
+            <!-- interest page -->
+
             <div class="fixed hidden bottom-0 left-0 right-0 bg-gray-900 shadow-lg p-6 border-t h-full z-50 overflow-auto md:h-[80%]"
                 id="interest">
                 <button class="absolute top-4 right-4 text-gray-200 hover:text-gray-500" id="close-int">X</button>
@@ -100,7 +104,8 @@
                     <div class="max-w-7xl mx-auto text-center">
                         <h2 class="text-4xl font-bold mb-8">My Interest</h2>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <!-- Service 1 -->
+
+                            <!-- interest 1 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">Team Collaboration</h3>
@@ -109,7 +114,8 @@
                                     perspectives to deliver cohesive projects.
                                 </p>
                             </div>
-                            <!-- Service 2 -->
+
+                            <!-- interest 2 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">Learning and Growth</h3>
@@ -118,7 +124,8 @@
                                     projects, and participating in challenges like #100DaysOfCode.
                                 </p>
                             </div>
-                            <!-- Service 3 -->
+
+                            <!-- interest 3 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">Open Source Contribution</h3>
@@ -128,7 +135,8 @@
                                     meaningful initiatives.
                                 </p>
                             </div>
-                            <!-- Service 4 -->
+
+                            <!-- interest 4 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">Human-Centered Design</h3>
@@ -143,6 +151,7 @@
 
             </div>
 
+            <!-- skills page -->
             <div class="fixed hidden bottom-0 left-0 right-0 bg-gray-900 shadow-lg p-6 border-t h-full overflow-auto z-50  md:h-[80%] "
                 id="skill">
                 <button class="absolute top-4 right-4 text-gray-200 hover:text-gray-500" id="close-skill">X</button>
@@ -151,7 +160,7 @@
                     <div class="max-w-7xl mx-auto text-center">
                         <h2 class="text-4xl font-bold mb-8">My Skills</h2>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <!-- Service 1 -->
+                            <!-- Skill 1 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">HTML</h3>
@@ -162,7 +171,7 @@
 
                                 </p>
                             </div>
-                            <!-- Service 2 -->
+                            <!-- Skill 2 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">Tailwind CSS</h3>
@@ -174,7 +183,7 @@
 
                                 </p>
                             </div>
-                            <!-- Service 3 -->
+                            <!-- Skill 3 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">JavaScript</h3>
@@ -185,7 +194,7 @@
                                     real-time data updates.
                                 </p>
                             </div>
-                            <!-- Service 4 -->
+                            <!-- Skill 4 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
                                 <h3 class="text-2xl font-semibold mb-4">React</h3>
@@ -210,8 +219,8 @@
                 </div>
 
                 <!-- Text Section -->
-                <div class="w-full lg:w-1/2 mt-8 lg:mt-0 lg:pl-12 text-center lg:text-left">
-                    <h2 class="text-3xl font-bold text-gray-800">
+                <div class="w-full lg:w-1/2 mt-8 lg:mt-0 lg:pl-12 text-left lg:text-left">
+                    <h2 class="text-3xl font-bold text-gray-800 ">
                         About Me
                     </h2>
                     <p class="text-gray-600 mt-4 leading-relaxed">
@@ -233,11 +242,11 @@
 
                     </p>
                     <button id="skill-btn"
-                        class="mt-6 bg-gray-800 hover:bg-gray-600 text-white font-medium py-1 px-4 rounded-md shadow-lg">
+                        class="mt-6 bg-gray-800 hover:bg-gray-600 text-white font-medium py-2 px-6 rounded-md shadow-lg text-lg">
                         My Skills
                     </button>
                     <button id="interest-btn"
-                        class="mt-6 bg-gray-800 hover:bg-gray-600 text-white font-medium py-1 px-4 rounded-md shadow-lg">
+                        class="mt-6 bg-gray-800 hover:bg-gray-600 text-white font-medium py-2 px-6 rounded-md shadow-lg text-lg">
                         My Interest
                     </button>
                 </div>
@@ -251,10 +260,12 @@
                 id="more-details">
                 <button class="absolute top-4 right-4 text-gray-200 hover:text-gray-500" id="close-btn">X</button>
 
+                <!-- service more details div -->
                 <div class="bg-gray-900 text-white py-12 px-6 ">
                     <div class="max-w-7xl mx-auto text-center">
                         <h2 class="text-4xl font-bold mb-8">My Services</h2>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
                             <!-- Service 1 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
@@ -264,6 +275,7 @@
                                     sizes, ensuring a consistent and engaging user experience across devices.
                                 </p>
                             </div>
+
                             <!-- Service 2 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
@@ -273,6 +285,7 @@
                                     focus on accessibility, usability, and pixel-perfect precision.
                                 </p>
                             </div>
+
                             <!-- Service 3 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
@@ -282,6 +295,7 @@
                                     implementing best practices for fast and efficient web applications.
                                 </p>
                             </div>
+
                             <!-- Service 4 -->
                             <div
                                 class="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transform hover:scale-105 transition">
@@ -302,8 +316,8 @@
                     <p class="text-yellow-400 text-sm uppercase tracking-wider">Services</p>
                     <h3 class="text-2xl font-semibold mt-2">What Am I Providing</h3>
                     <p class="text-gray-400 text-sm mt-2">
-                        If you want any of the following services, please go on the freelance section.
-                        There you can find some of the freelance platforms where I am available.
+                        If you want any of the following services, please go to the get in touch page to get intouch with me.
+                        There you can find my email and number, or you can text me directly by filling the form.
                     </p>
                 </div>
 
@@ -347,6 +361,7 @@
         <!-- portfolio page -->
         <section id="projects" class="bg-gray-900 text-white py-16 px-4">
             <div class="max-w-screen-lg mx-auto text-center">
+
                 <!-- Yellow Line Above -->
                 <div class="w-80 h-1 bg-amber-400 mx-auto mb-4"></div>
 
@@ -360,6 +375,7 @@
 
                 <!-- Portfolio Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
                     <!-- Portfolio Item 1 -->
                     <a href="https://renteaze.netlify.app/" target="_blank" rel="noopener noreferrer" class="block">
                         <div
@@ -434,8 +450,9 @@
         </section>
 
         <!-- Resume page -->
-        <div class="bg-gray-300 text-white py-12 px-6">
+        <div class="bg-gray-300 text-white py-12 px-6" id="resume">
             <div class="max-w-4xl mx-auto border-2 border-gray-900 p-6">
+
                 <!-- Header Section -->
                 <div class="text-center mb-8 text-gray-900">
                     <h1 class="text-4xl font-bold">Mawuse Akpeke</h1>
@@ -484,6 +501,7 @@
                 <section class="mb-8">
                     <h2 class="text-2xl  text-gray-900 font-semibold mb-4">Experience</h2>
                     <div class="space-y-6">
+
                         <!-- CoreXtreme -->
                         <div class="bg-gray-800 rounded-lg p-6 shadow-md">
                             <h3 class="text-xl font-semibold">CoreXtreme | Intern</h3>
@@ -493,6 +511,7 @@
                                     and Material-UI.</li>
                             </ul>
                         </div>
+
                         <!-- MEST Africa -->
                         <div class="bg-gray-800 rounded-lg p-6 shadow-md">
                             <h3 class="text-xl font-semibold">MEST Africa</h3>
@@ -507,6 +526,7 @@
                                 <li>Completed a solo project for a software engineering course.</li>
                             </ul>
                         </div>
+
                         <!-- Nanti Systems -->
                         <div class="bg-gray-800 rounded-lg p-6 shadow-md">
                             <h3 class="text-xl font-semibold">Nanti Systems | National Service Personnel</h3>
@@ -531,8 +551,6 @@
                 </section>
             </div>
         </div>
-
-
 
         <!--  get in touch page -->
         <section id="contact" class="bg-gray-800 text-white py-12 px-4">
@@ -589,6 +607,7 @@
     <!-- footer page -->
     <footer class="bg-gray-900 text-white py-8 px-4">
         <div class="max-w-screen-lg mx-auto text-center">
+
             <!-- Quick Links -->
             <div class="mb-6">
                 <ul class="flex justify-center space-x-8">
@@ -615,6 +634,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- header animation using JavaScript and css -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".highlight", {
@@ -624,6 +645,7 @@
             loop: true
         });
     </script>
+
     <script src="index.js"></script>
 </body>
 

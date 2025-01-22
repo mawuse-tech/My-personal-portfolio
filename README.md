@@ -1,7 +1,7 @@
 # 🌟 Portfolio Website  
 Welcome to my personal portfolio website! This project showcases my skills, interests, and the projects I've worked on as a frontend developer.
 
-### About the Project
+### Project Description
 This portfolio is designed to reflect my personality and technical skills. It includes detailed sections about me, my interests, and my expertise, along with an intuitive and responsive design to ensure a seamless browsing experience on all devices.
 
 ---

@@ -24,3 +24,7 @@
 .highlight {
   color: #fbbf24; /* Equivalent to Tailwind's text-amber-400 */
 }
+
+#contact svg {
+  fill: #fbbf24; /* Tailwind's amber-400 color */
+}
