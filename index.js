@@ -79,7 +79,7 @@ portForm.addEventListener('submit', function (e) {
   `
     closeBtn.disabled = false
 
-  }, 3000)
+  }, 1000)
 })
 
 
